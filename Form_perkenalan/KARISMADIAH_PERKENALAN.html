@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Perkenalan</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+        }
+        button {
+            margin-top: 10px;
+            padding: 10px 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Form Perkenalan</h1>
+    <form action="#" method="post">
+        <label for="name">karismadiah:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">kkarismadiah@gmail.com:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="about">Tentang Anda:</label>
+        <textarea id="about" name="about" rows="4" required></textarea>
+
+        <button type="submit">Kirim</button>
+    </form>
+
+</body>
+</html>
